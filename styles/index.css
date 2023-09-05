@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS for navbar */
+.navbar1{
+    display: flex;
+    background-color: transparent;
+    height: 50px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+}
+
+.logo{
+    width: 30%;
+}
+
+.logo img{
+    width: 35px;
+}
+
+.main-menu{
+    width: 30%;
+}
+
+.main-menu ol{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-menu ol li{
+    list-style: none;
+    padding: 15px;
+}
+
+.main-menu ol li a{
+    font-size: 7pt;
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+    transform: scaleX(0.7) scaleY(0.7);
+    font-family:'Lato',sans-serif;
+    text-decoration: underline white ;
+    text-underline-offset: 5px;
+}
+
+/* CSS for background image  */
+.section-1{
+    position: relative;
+    bottom: 50px;
+}
+
+.bg-img1-sec1{
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+.bg-img2-sec1{
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    opacity: 29%;
+}
+
+.bg-img3-sec1{
+    width: 550px;
+    left: 250px;
+    bottom: 290px;
+    position: absolute;
+    z-index: 3;
+}
+
+/* CSS for section 2 */
+.section-2{
+    position: relative;
+    bottom: 50px;
+}
+
+/* CSS for second navbar*/
+.navbar2{
+    display: flex;
+    height: 50px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-sec2{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-navbar2{
+    width: 10%;
+}
+
+.logo-navbar2 img{
+    width: 35px;
+}
+
+.LA-mountains img{
+    width: 90px;
+}
+
+.LA-mountains{
+    padding-left: 10px;
+}
+.main-menu-2{
+    width: 30%;
+}
+
+.main-menu-2 ol{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-menu-2 ol li{
+    list-style: none;
+    padding: 15px;
+}
+
+.main-menu-2 ol li a{
+    font-size: 7pt;
+    font-weight: 500;
+    font-style: italic;
+    color: #4e5b75;
+    transform: scaleX(0.7) scaleY(0.7);
+    font-family:'Lato',sans-serif;
+    text-decoration: underline #4e5b75 ;
+    text-underline-offset: 5px;
+}
+
+/* CSS for background image2 */
+
+.bg-img2{
+    position: relative;
+}
+
+.bg-img1-sec2{
+    width: 100%;
+}
+
+.text-container-1{
+    top: 0;
+    left: 200px;
+    position: absolute;
+    width: 750px;
+    margin: auto;
+}
+
+.sub-text-container-1{
+    position: relative;
+}
+
+.sub-text-container-1 :nth-child(1){
+    position: absolute;
+    font-size: 80pt;
+    left: 35px;
+    top: 10px;
+    font-family: 'oswald';
+    color: #4e5b75;
+    opacity:50% ;
+}
+
+.sub-text-container-1 :nth-child(2){
+    position: absolute;
+    color: #4e5b75;
+    left: 138px;
+    font-family: 'oswald';
+    top: 75px;
+    font-size: 25pt;
+}
+
+.text{
+    position: absolute;
+    color:#16181b;
+    font-weight: 400;
+    font-family: 'Lato';
+    top: 140px;
+    left: 95px;
+    line-height: 20px;
+    font-size: 11pt;
+}
+
+.bg-img2-sec2{
+    width: 100%;
+    z-index: 18;
+    margin-top: -4px;
+    position: relative;
+}
+
+.bg-img3-sec2{
+    left: 0;
+    width: 100%;
+    z-index: 18;
+    position: absolute;
+    bottom: 4px;
+    opacity: 85%;
+}
+
+.carousel{
+    z-index: 19;
+    position: absolute;
+    left: 465px;
+    bottom: 20px;
+    overflow: hidden;
+}
+
+.carousel-items{
+    display: flex;
+    width: 345px;
+    transition:all ease-in-out 0.3s;
+}
+
+.carousel-img{
+    height: 100px;
+    width: 222px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.carousel-dots{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dots{
+    background-color: #4e5b75;
+    height: 5px;
+    width: 5px;
+    margin-left: 5px;
+    border-radius: 100%;
+}
+
+.active-dot{
+    background-color: white;
+}
+
+/* CSS for section 3 */
+
+.section-3{
+    margin-top: -55px;
+}
+
+.text-container-2{
+    position: relative;
+    width: 800px;
+    height: 120px;
+    margin: auto;
+}
+
+.text-container-2 :nth-child(1){
+    position: absolute;
+    font-size: 80pt;
+    left: 35px;
+    top: -25px;
+    font-family: 'oswald';
+    color: #4e5b75;
+    opacity:50% ;
+}
+
+.text-container-2 :nth-child(2){
+    position: absolute;
+    color: #4e5b75;
+    left: 150px;
+    font-family: 'oswald';
+    top: 40px;
+    font-size: 25pt;
+}
+
+.text-container-2 :nth-child(3){
+    position: absolute;
+    color:#16181b;
+    font-weight: 400;
+    font-family: 'Lato';
+    top: 30px;
+    left: 260px;
+    line-height: 20px;
+    font-size: 11pt;
+}
+
+.tab-container{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    background-color: #4e5b75;
+}
+
+.sub-tab-container{
+    width: 60%;
+    display: flex;
+}
+
+.mountain-1{
+    padding-top: 7px;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    color:rgba(255, 255, 255, 0.987);
+    opacity: 60%;
+    font-size: 20px;
+    font-family: 'oswald';
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.mountain-2{
+    transition: all ease-in-out 0.3s;
+    padding-top: 7px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    color:rgba(255, 255, 255, 0.987);
+    opacity: 60%;
+    font-size: 20px;
+    font-family: 'oswald';
+}
+
+.active-tab{
+    padding-top: 7px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.751);
+    color: #4e5b75;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size: 20px;
+    font-family: 'oswald';
+}
+
+.bg-img3 img{
+    width: 100%;
+}
+
+.bg-img3{
+    position: relative;
+}
+
+.schedule-container{
+    top: 80px;
+    left: 250px;
+    position: absolute;
+    z-index: 14;
+    background-color: rgba(255, 255, 255, 0.733);
+    width: 270px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.schedule-tab-1{
+    display: none;
+    padding-top: 5px;
+    transition: all ease-in-out 1s;
+}
+
+.schedule-tab-2{
+    display: none;
+    padding-top: 5px;
+    transition: all ease-in-out 1s;
+}
+
+.date{
+    width: 50%;
+}
+
+.active-card{
+    display: flex;
+}
+
+.date p{
+    font-family: 'lato';
+    color: black;
+    padding-bottom: 5px;
+}
+
+.mountain-name{
+    width: 50%;
+}
+
+.mountain-name p{
+    font-family: 'lato';
+    color: black;
+    padding-bottom: 5px;
+}
+
+.schedule-heading{
+    color: #4e5b75;
+    font-family: 'oswald';
+    font-size: 35px;
+}
+
+/* CSS for footer  */
+
+.main-footer{
+    margin-top: -4px;
+    display:flex;
+    align-items: center;
+    height: 70px;
+    justify-content: center;
+    background-color: #4e5b75;
+}
+
+.footer-logo{
+    width: 5%;
+}
+
+.LA-mountainer-footer{
+    width: 25%;
+}
+
+.copyright{
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.copyright p{
+    font-family: 'oswald';
+    color: #5d74a1;
+    opacity: 70%;
+    font-style: italic;
+    font-size: 12px;
+    transform: scaleX(1);
+    letter-spacing: 1px;
+}
